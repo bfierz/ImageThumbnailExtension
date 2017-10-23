@@ -45,6 +45,7 @@ Section "VclImageThumbnailExtension (required)"
   
   ; Write the uninstall keys for Windows
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\VclImageThumbnailExtension" "DisplayName" "VclImageThumbnailExtension"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\VclImageThumbnailExtension" "Publisher" "Basil Fierz"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\VclImageThumbnailExtension" "UninstallString" '"$INSTDIR\uninstall.exe"'
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\VclImageThumbnailExtension" "NoModify" 1
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\VclImageThumbnailExtension" "NoRepair" 1

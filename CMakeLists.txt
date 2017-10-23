@@ -44,6 +44,8 @@ set(EXT_SRC
 	thumbnailprovider.cpp
 	thumbnailprovider.def
 	thumbnailprovider.h
+	version.h
+	version.rc
 )
 
 set(TEST_SRC
